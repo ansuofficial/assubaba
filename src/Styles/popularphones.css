@@ -1,0 +1,30 @@
+.popular-phones-wrapper h1 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.popular-phones {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  gap: 2rem;
+  /* overflow: hidden; */
+}
+
+.popularPhones-content p {
+  color: white;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.popularPhones-content {
+  border: 1px solid green;
+  width: 100%;
+  margin: 3rem 0;
+  padding: 1rem;
+}
+
+.popularPhones-content img {
+  width: 200px;
+  border-radius: 10px;
+}
