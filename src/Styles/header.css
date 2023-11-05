@@ -1,0 +1,34 @@
+.search-bar-wrapper {
+    text-align: center;
+}
+
+.input-container input{
+    width: 100%;
+    padding: .75rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.input-container input::placeholder{
+    text-align: center;
+}
+
+.header-items ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    padding: 0 .5rem;
+}
+
+.header-items li a{
+    color: white;
+    text-decoration: none;
+}
+
+.line {
+    width: 3rem;
+    height: 1px;
+    background: white;
+}
