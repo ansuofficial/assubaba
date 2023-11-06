@@ -16,7 +16,7 @@
   display: grid;
   grid-auto-flow: column;
   overflow-x: auto;
-  gap: 2rem;
+  gap: 1.5rem;
   /* overflow: hidden; */
 }
 
@@ -27,13 +27,14 @@
 }
 
 .popularPhones-content {
-  border: 1px solid green;
+  box-shadow: 1px 1px 5px rgb(26, 26, 26);
   width: 100%;
   margin: 3rem 0;
   padding: 1rem;
 }
 
 .popularPhones-content img {
-  width: 200px;
+  aspect-ratio: 16/21;
+  width: 170px;
   border-radius: 10px;
 }

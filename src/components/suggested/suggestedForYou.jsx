@@ -1,38 +1,38 @@
 const suggestedPhonesData = [
   {
     img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
-    name: "iphone 15 promax",
-    description: "Latest iphone, the best smart phone in 2023",
+    name: "Samsung Gallaxy s22 ultra",
+    price: "D500",
   },
   {
     img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
-    name: "iphone 15 promax",
-    description: "Latest iphone, the best smart phone in 2023",
+    name: "Samsung Gallaxy s22 ultra",
+    price: "D500",
   },
   {
     img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
-    name: "iphone 15 promax",
-    description: "Latest iphone, the best smart phone in 2023",
+    name: "Samsung Gallaxy s22 ultra",
+    price: "D500",
   },
   {
     img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpghttps://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
-    name: "iphone 15 promax",
-    description: "Latest iphone, the best smart phone in 2023",
+    name: "Samsung Gallaxy s22 ultra",
+    price: "D500",
   },
   {
     img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
-    name: "iphone 15 promax",
-    description: "Latest iphone, the best smart phone in 2023",
+    name: "Samsung Gallaxy s22 ultra",
+    price: "D500",
   },
   {
     img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
-    name: "iphone 15 promax",
-    description: "Latest iphone, the best smart phone in 2023",
+    name: "Samsung Gallaxy s22 ultra",
+    price: "D500",
   },
   {
     img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
-    name: "iphone 15 promax",
-    description: "Latest iphone, the best smart phone in 2023",
+    name: "Samsung Gallaxy s22 ultra",
+    price: "D500",
   },
 ];
 
@@ -52,13 +52,13 @@ const SuggestedPhones = () => {
   );
 };
 const SuggestedPhonesCard = (props) => {
-  const { img, name, description } = props;
+  const { img, name, price } = props;
   return (
     <div className="popularPhonesCard-wrapper">
       <div className="popularPhones-content">
         <img src={img} alt="popular phones image" />
         <p>{name}</p>
-        <p>{description}</p>
+        <p>{price}</p>
       </div>
     </div>
   );
