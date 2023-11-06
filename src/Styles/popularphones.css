@@ -1,5 +1,14 @@
-.popular-phones-wrapper h1 {
+.popular-phones-title {
+  display: flex;
+  justify-content: space-between;
   color: white;
+}
+
+.popular-phones-title i {
+  font-size: 1.5rem;
+}
+
+.popular-phones-title h1 {
   font-size: 1.5rem;
 }
 
