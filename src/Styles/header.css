@@ -15,7 +15,7 @@
 }
 
 .header-items {
-    position: sticky;
+    box-shadow: 0 1px 0   rgb(24, 24, 24);
 }
 
 .header-items ul{

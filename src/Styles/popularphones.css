@@ -38,3 +38,47 @@
   width: 170px;
   border-radius: 10px;
 }
+
+/* CURRENT SECTION */
+
+.currentEvents-title {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.currentEvents-titlei {
+  font-size: 1.5rem;
+}
+
+.currentEvents-title h1 {
+  font-size: 1.5rem;
+}
+
+.currentEvents-phones {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  gap: 1.5rem;
+  /* overflow: hidden; */
+}
+
+.currentEvents-content p {
+  color: white;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.currentEvents-content{
+  box-shadow: 1px 1px 5px rgb(26, 26, 26);
+  width: 100%;
+  margin: 3rem 0;
+  padding: .50rem;
+}
+
+.currentEvents-content img {
+  height: 200px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
