@@ -29,7 +29,7 @@
 .popularPhones-content {
   box-shadow: 1px 1px 5px rgb(26, 26, 26);
   width: 100%;
-  margin: 3rem 0;
+  margin: 1.5rem 0 2rem 0;
   padding: 1rem;
 }
 
@@ -72,7 +72,7 @@
 .currentEvents-content{
   box-shadow: 1px 1px 5px rgb(26, 26, 26);
   width: 100%;
-  margin: 3rem 0;
+  margin: 1.5rem 0 2rem 0;
   padding: .50rem;
 }
 
