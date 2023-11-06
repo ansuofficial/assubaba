@@ -4,6 +4,7 @@ import HeaderItems from "./components/header/headerItems.jsx";
 import Hero from "./components/hero/hero.jsx";
 import PopularPhones from "./components/popularPhones/popularPhone.jsx";
 import SuggestedPhones from "./components/suggested/suggestedForYou.jsx"
+import EducationalPhones from "./components/educational/educational.jsx"
 import "./app.css";
 import "./Styles/header.css";
 import "./Styles/hero.css";
@@ -17,6 +18,7 @@ const App = () => {
       <Hero />
       <PopularPhones />
       <SuggestedPhones/>
+      <EducationalPhones/>
     </div>
   );
 };
