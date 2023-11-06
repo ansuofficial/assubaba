@@ -133,10 +133,16 @@
 }
 
 .button-wrapper button {
+  /* display: none; */
   color: white;
   padding: 0.2rem .5rem;
   background: none;
   outline: none;
   border: 1px solid rgb(20, 22, 20);
   border-radius: 10px;
+  cursor: pointer;
 }
+
+ /* #btn1 {
+  display: none;
+} */
