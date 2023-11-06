@@ -1,36 +1,36 @@
 const suggestedPhonesData = [
   {
-    img: "http://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN_493x.jpg",
+    img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
     name: "iphone 15 promax",
     description: "Latest iphone, the best smart phone in 2023",
   },
   {
-    img: "http://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN_493x.jpg",
+    img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
     name: "iphone 15 promax",
     description: "Latest iphone, the best smart phone in 2023",
   },
   {
-    img: "http://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN_493x.jpg",
+    img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
     name: "iphone 15 promax",
     description: "Latest iphone, the best smart phone in 2023",
   },
   {
-    img: "http://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN_493x.jpg",
+    img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpghttps://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
     name: "iphone 15 promax",
     description: "Latest iphone, the best smart phone in 2023",
   },
   {
-    img: "http://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN_493x.jpg",
+    img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
     name: "iphone 15 promax",
     description: "Latest iphone, the best smart phone in 2023",
   },
   {
-    img: "http://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN_493x.jpg",
+    img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
     name: "iphone 15 promax",
     description: "Latest iphone, the best smart phone in 2023",
   },
   {
-    img: "http://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN_493x.jpg",
+    img: "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg",
     name: "iphone 15 promax",
     description: "Latest iphone, the best smart phone in 2023",
   },
