@@ -21,6 +21,10 @@
   /* overflow: hidden; */
 }
 
+.popular-phones::-webkit-scrollbar {
+    display: none;
+}
+
 .popularPhones-content p {
   color: white;
   text-align: center;
