@@ -30,13 +30,13 @@
   box-shadow: 1px 1px 5px rgb(26, 26, 26);
   width: 100%;
   margin: 1.5rem 0 2rem 0;
-  padding: 1rem;
+  border-radius: 10px;
+  /* padding: 1rem; */
 }
 
 .popularPhones-content img {
   aspect-ratio: 16/21;
   width: 170px;
-  border-radius: 10px;
 }
 
 /* UPCOMMING SECTION */
@@ -136,9 +136,10 @@
   /* display: none; */
   color: white;
   padding: 0.2rem .5rem;
+  margin: 1rem 0 2rem 0;
   background: none;
   outline: none;
-  border: 1px solid rgb(20, 22, 20);
+  /* border: 1px solid rgb(20, 22, 20); */
   border-radius: 10px;
   cursor: pointer;
 }

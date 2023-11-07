@@ -7,10 +7,12 @@ import SuggestedPhones from "./components/suggested/suggestedForYou.jsx";
 import EducationalPhones from "./components/educational/educational.jsx";
 import CurrentEvents from "./components/currentEvents/CurrentEvents.jsx";
 import OtherPhones from "./components/other/other.jsx"
+import Footer from "./components/footer/footer.jsx"
 import "./app.css";
 import "./Styles/header.css";
 import "./Styles/hero.css";
 import "./Styles/popularphones.css";
+import "./Styles/footer.css"
 
 const App = () => {
   return (
@@ -23,6 +25,7 @@ const App = () => {
       <EducationalPhones />
       <CurrentEvents />
       <OtherPhones/>
+      <Footer/>
     </div>
   );
 };
