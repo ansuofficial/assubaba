@@ -34,9 +34,11 @@ const CurrentEventsCard = (props) => {
     <div className="popularPhonesCard-wrapper">
       <div className="currentEvents-content">
         <img src={img} alt="popular phones image" />
-        <p>
-          <a href="#">Learn more</a>
-        </p>
+        <div className="currentEvents-button">
+          <button>
+            <a href="#">Learn more</a>
+          </button>
+        </div>
       </div>
     </div>
   );

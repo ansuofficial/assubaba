@@ -17,6 +17,7 @@
   grid-auto-flow: column;
   overflow-x: auto;
   gap: 1.5rem;
+  scrollbar-width: none;
   /* overflow: hidden; */
 }
 
@@ -28,6 +29,7 @@
 
 .popularPhones-content .price {
   color: orange;
+  font-weight: bold;
 }
 
 .popularPhones-content {
@@ -67,10 +69,25 @@
   /* overflow: hidden; */
 }
 
-.currentEvents-content p {
+.currentEvents-content button {
+  /* color: white;
+  line-height: 1.5rem; */
+  outline: none;
+  border: none;
+  background: orange;
+  border-radius: 10px;
+  padding: 2px 7px;
+}
+
+.currentEvents-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.currentEvents-content button a {
   color: white;
-  text-align: center;
-  line-height: 1.5rem;
+  text-decoration: none;
 }
 
 .currentEvents-content {
@@ -144,13 +161,9 @@
   color: white;
   padding: 0.2rem 0.5rem;
   margin: 1rem 0 2rem 0;
-  background: none;
+  background: orange;
+  border: none;
   outline: none;
-  border: 1px solid orange;
   border-radius: 10px;
   cursor: pointer;
 }
-
-/* #btn1 {
-  display: none;
-} */
