@@ -69,11 +69,11 @@
   line-height: 1.5rem;
 }
 
-.currentEvents-content{
+.currentEvents-content {
   box-shadow: 1px 1px 5px rgb(26, 26, 26);
   width: 100%;
   margin: 1.5rem 0 2rem 0;
-  padding: .50rem;
+  padding: 0.5rem;
 }
 
 .currentEvents-content img {
@@ -97,6 +97,7 @@
 
 .other-phones-title h1 {
   font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .other-phones {
@@ -116,14 +117,16 @@
 .otherPhones-content {
   box-shadow: 1px 1px 5px rgb(26, 26, 26);
   width: 100%;
-  margin: 0 0 1rem 0;
-  padding: 1rem;
+  /* margin: 1.5rem 0 0 0; */
+
+  /* padding: 1rem; */
+  border-radius: 10px;
 }
 
 .otherPhones-content img {
   aspect-ratio: 16/21;
-  width: 150px;
-  border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .button-wrapper {
@@ -135,7 +138,7 @@
 .button-wrapper button {
   /* display: none; */
   color: white;
-  padding: 0.2rem .5rem;
+  padding: 0.2rem 0.5rem;
   margin: 1rem 0 2rem 0;
   background: none;
   outline: none;
@@ -144,6 +147,6 @@
   cursor: pointer;
 }
 
- /* #btn1 {
+/* #btn1 {
   display: none;
 } */
