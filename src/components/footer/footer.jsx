@@ -68,6 +68,27 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+
+      <div className="footer-content-2">
+        <h2>
+          <a href="#">Already a customer? Sign in</a>
+        </h2>
+        <div className="footer-content-2-items">
+          <ul>
+            <li>
+              <a href="#">Conditions of use</a>
+            </li>
+            <li>
+              <a href="#">Privacy Notice</a>
+            </li>
+          </ul>
+        </div>
+        <div className="and-copy">
+          <p>
+            &copy;2020-2023, <a href="#">Assubaba.com</a> , inc.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

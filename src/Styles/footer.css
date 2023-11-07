@@ -1,9 +1,9 @@
 .footer-wrapper {
-  background: rgb(20, 20, 20);
-  color: white;
+    color: white;
 }
 
 .footer-content {
+    background: rgb(20, 20, 20);
   gap: 1rem;
   text-align: center;
   display: flex;
@@ -18,12 +18,56 @@
   font-size: 0.75rem;
 }
 
+.footer-content ul li a {
+    color:blue
+}
+
 .footer-content h2 {
   font-size: 0.75rem;
   text-align: center;
 }
 
-.footer-content a {
-  text-decoration: none;
-  /* color: rgb(117, 117, 117); */
+/* Content-2*/
+
+.footer-content-2 {
+    background: rgb(43, 42, 42);
+    columns: white;
+    padding: 1rem;
+}
+
+.footer-content-2 h2 {
+    text-align: center;
+}
+
+.footer-content-2-items ul {
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.footer-content-2-items ul li a {
+    color: white;
+    font-size: .75rem;
+
+}
+
+.footer-content-2 h2 a{
+    color: white;
+    font-size: 1rem;
+}
+
+.and-copy {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.and-copy p {
+    font-size: 1rem;
+}
+
+.and-copy p a {
+    color: blue;
 }
