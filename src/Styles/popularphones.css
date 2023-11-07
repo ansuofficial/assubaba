@@ -26,6 +26,10 @@
   line-height: 1.5rem;
 }
 
+.popularPhones-content .price {
+  color: orange;
+}
+
 .popularPhones-content {
   box-shadow: 1px 1px 5px rgb(26, 26, 26);
   width: 100%;
@@ -142,7 +146,7 @@
   margin: 1rem 0 2rem 0;
   background: none;
   outline: none;
-  /* border: 1px solid rgb(20, 22, 20); */
+  border: 1px solid orange;
   border-radius: 10px;
   cursor: pointer;
 }

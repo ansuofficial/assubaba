@@ -8,11 +8,13 @@ import EducationalPhones from "./components/educational/educational.jsx";
 import CurrentEvents from "./components/currentEvents/CurrentEvents.jsx";
 import OtherPhones from "./components/other/other.jsx"
 import Footer from "./components/footer/footer.jsx"
+import AbsoluteFooter from "./components/absoluteFooter/absoluteFooter.jsx"
 import "./app.css";
 import "./Styles/header.css";
 import "./Styles/hero.css";
 import "./Styles/popularphones.css";
 import "./Styles/footer.css"
+import "./Styles/absoluteFooter.css"
 
 const App = () => {
   return (
@@ -26,6 +28,7 @@ const App = () => {
       <CurrentEvents />
       <OtherPhones/>
       <Footer/>
+      <AbsoluteFooter/>
     </div>
   );
 };

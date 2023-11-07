@@ -57,8 +57,8 @@ const EducationalPhonesCard = (props) => {
     <div className="popularPhonesCard-wrapper">
       <div className="popularPhones-content">
         <img src={img} alt="popular phones image" />
-        <p>{name}</p>
-        <p>{price}</p>
+        <p className="name">{name}</p>
+        <p className="price">{price}</p>
       </div>
     </div>
   );
