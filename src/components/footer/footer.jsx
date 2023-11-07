@@ -23,7 +23,7 @@ const Footer = () => {
           <h2>Make Money with us</h2>
           <ul>
             <li>
-              <a href="#">Advertise you products</a>
+              <a href="#">Advertise your products</a>
             </li>
             <li>
               <a href="#">Become an Affiliate</a>
